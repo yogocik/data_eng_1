@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dwh-coding-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Yogic <yogicrhama@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.3"
+openpyxl = "^3.0.10"
+ipython = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
